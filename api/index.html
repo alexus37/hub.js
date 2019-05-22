@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>@esri/hub.js</title>
+    
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css">
+    <link rel="stylesheet" href="/hub.js/css/style.css">
+    
+  </head>
+  <body>
+  <!-- Drawer -->
+    <div class="drawer drawer-left js-drawer" data-drawer="top-nav" tabindex="0">
+      <nav class="drawer-nav" role="navigation">
+        <aside class="side-nav">
+          <h2 class="side-nav-title">@esri/hub.js</h2>
+          <a href="/hub.js/guides/" class="side-nav-link">Guides</a>
+          <a href="/hub.js/api/" class="is-active side-nav-link">API Reference</a>
+        </aside>
+      </nav>
+    </div>
+
+    <div id="page" class="wrapper">
+      <!-- Sample HTML -->
+      <header class="top-nav">
+        <div class="grid-container">
+          <div class="column-24">
+            <!-- desktop sized navigation -->
+            <div class="tablet-hide">
+              <!-- logo / home -->
+              <a href="/hub.js/" class="top-nav-title">@esri/hub.js</a>
+              <!-- primary navigation sections -->
+              <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
+                <a href="/hub.js/guides/" class="top-nav-link">Guides</a>
+                <a href="/hub.js/api/" class="is-active top-nav-link">API Reference</a>
+              </nav>
+            </div>
+
+            <!-- tablet and mobile sized navigation -->
+            <div class="tablet-show top-nav-flex">
+              <!-- open primary navigation drawer -->
+              <nav class="top-nav-flex-list" role="navigation" aria-labelledby="topnav">
+                <a href="/hub.js/" class="icon-ui-menu top-nav-link js-drawer-toggle" data-drawer="top-nav"><span class="phone-hide">Menu</span></a>
+              </nav>
+              <!-- logo / home -->
+              <header class="top-nav-flex-title">
+                <a href="/hub.js/" class="top-nav-link">@esri/hub.js</a>
+              </header>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+
+      <main id="#skip-to-content">
+        
+<div class="grid-container trailer-1 leader-1">
+  <nav class="column-6">
+    <api-search base-url="/hub.js/">
+      <h3 class="font-size--1 trailer-quarter">Packages</h3>
+      <hr class="leader-quarter trailer-quarter" />
+      <ul class="list-plain">
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="1" package-name="@esri/hub-annotations" ></nav-toggle>
+          <button id="trigger1" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/annotations/" class="tsd-kind-icon">annotations</a>
+          <ul id="list1" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/addAnnotations/" class="tsd-kind-icon padding-right-1">addAnnotations</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/createAnnotationService/" class="tsd-kind-icon padding-right-1">createAnnotationService</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/deleteAnnotations/" class="tsd-kind-icon padding-right-1">deleteAnnotations</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/searchAllAnnotationVotes/" class="tsd-kind-icon padding-right-1">searchAllAnnotationVotes</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/searchAnnotations/" class="tsd-kind-icon padding-right-1">searchAnnotations</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/searchSingleAnnotationVotes/" class="tsd-kind-icon padding-right-1">searchSingleAnnotationVotes</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/updateAnnotations/" class="tsd-kind-icon padding-right-1">updateAnnotations</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/getAnnotationServiceUrl/" class="tsd-kind-icon padding-right-1">getAnnotationServiceUrl</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/voteOnAnnotation/" class="tsd-kind-icon padding-right-1">voteOnAnnotation</a>
+            </li>
+            
+            <li class="tsd-kind-object-literal padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/annotationServiceDefinition/" class="tsd-kind-icon padding-right-1">annotationServiceDefinition</a>
+            </li>
+            
+            <li class="tsd-kind-object-literal padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/defaultExtent/" class="tsd-kind-icon padding-right-1">defaultExtent</a>
+            </li>
+            
+            <li class="tsd-kind-object-literal padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/editorTrackingInfo/" class="tsd-kind-icon padding-right-1">editorTrackingInfo</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IAddAnnotationsOptions/" class="tsd-kind-icon padding-right-1">IAddAnnotationsOptions</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IAnnoFeature/" class="tsd-kind-icon padding-right-1">IAnnoFeature</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/ICreateAnnoOptions/" class="tsd-kind-icon padding-right-1">ICreateAnnoOptions</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IResourceObject/" class="tsd-kind-icon padding-right-1">IResourceObject</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/ISearchAnnoOptions/" class="tsd-kind-icon padding-right-1">ISearchAnnoOptions</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IVoteResourceObject/" class="tsd-kind-icon padding-right-1">IVoteResourceObject</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IAnnoItem/" class="tsd-kind-icon padding-right-1">IAnnoItem</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IAnnoSearchResult/" class="tsd-kind-icon padding-right-1">IAnnoSearchResult</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/annotations/IVoteOptions/" class="tsd-kind-icon padding-right-1">IVoteOptions</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="2" package-name="@esri/hub-auth" ></nav-toggle>
+          <button id="trigger2" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/auth/" class="tsd-kind-icon">auth</a>
+          <ul id="list2" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/auth/completeOAuth2/" class="tsd-kind-icon padding-right-1">completeOAuth2</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="3" package-name="@esri/hub-common" ></nav-toggle>
+          <button id="trigger3" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/common/" class="tsd-kind-icon">common</a>
+          <ul id="list3" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/getHubApiUrl/" class="tsd-kind-icon padding-right-1">getHubApiUrl</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/getCategory/" class="tsd-kind-icon padding-right-1">getCategory</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/getTypes/" class="tsd-kind-icon padding-right-1">getTypes</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/arrayToObject/" class="tsd-kind-icon padding-right-1">arrayToObject</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/camelize/" class="tsd-kind-icon padding-right-1">camelize</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/cloneObject/" class="tsd-kind-icon padding-right-1">cloneObject</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/compose/" class="tsd-kind-icon padding-right-1">compose</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/createId/" class="tsd-kind-icon padding-right-1">createId</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/findBy/" class="tsd-kind-icon padding-right-1">findBy</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/getProp/" class="tsd-kind-icon padding-right-1">getProp</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/maybeAdd/" class="tsd-kind-icon padding-right-1">maybeAdd</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/maybePush/" class="tsd-kind-icon padding-right-1">maybePush</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/objectToArray/" class="tsd-kind-icon padding-right-1">objectToArray</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/without/" class="tsd-kind-icon padding-right-1">without</a>
+            </li>
+            
+            <li class="tsd-kind-object-literal padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/categories/" class="tsd-kind-icon padding-right-1">categories</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/IInitiativeItem/" class="tsd-kind-icon padding-right-1">IInitiativeItem</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/IInitiativeModel/" class="tsd-kind-icon padding-right-1">IInitiativeModel</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/common/IModel/" class="tsd-kind-icon padding-right-1">IModel</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="4" package-name="@esri/hub-events" ></nav-toggle>
+          <button id="trigger4" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/events/" class="tsd-kind-icon">events</a>
+          <ul id="list4" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/registerForEvent/" class="tsd-kind-icon padding-right-1">registerForEvent</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/unregisterForEvent/" class="tsd-kind-icon padding-right-1">unregisterForEvent</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/searchEvents/" class="tsd-kind-icon padding-right-1">searchEvents</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/getEventFeatureServiceUrl/" class="tsd-kind-icon padding-right-1">getEventFeatureServiceUrl</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/getEventQueryFromType/" class="tsd-kind-icon padding-right-1">getEventQueryFromType</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/getEventServiceItem/" class="tsd-kind-icon padding-right-1">getEventServiceItem</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/getEventServiceUrl/" class="tsd-kind-icon padding-right-1">getEventServiceUrl</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/IEventRegisterOptions/" class="tsd-kind-icon padding-right-1">IEventRegisterOptions</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/events/IEventResourceObject/" class="tsd-kind-icon padding-right-1">IEventResourceObject</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="5" package-name="@esri/hub-initiatives" ></nav-toggle>
+          <button id="trigger5" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/initiatives/" class="tsd-kind-icon">initiatives</a>
+          <ul id="list5" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/activateInitiative/" class="tsd-kind-icon padding-right-1">activateInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/addInitiative/" class="tsd-kind-icon padding-right-1">addInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/getInitiativeUrl/" class="tsd-kind-icon padding-right-1">getInitiativeUrl</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/detachSiteFromInitiative/" class="tsd-kind-icon padding-right-1">detachSiteFromInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/currentlyFollowedInitiatives/" class="tsd-kind-icon padding-right-1">currentlyFollowedInitiatives</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/followInitiative/" class="tsd-kind-icon padding-right-1">followInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/isUserFollowing/" class="tsd-kind-icon padding-right-1">isUserFollowing</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/unfollowInitiative/" class="tsd-kind-icon padding-right-1">unfollowInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/getInitiative/" class="tsd-kind-icon padding-right-1">getInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/lookupSiteUrlByInitiative/" class="tsd-kind-icon padding-right-1">lookupSiteUrlByInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/checkGroupExists/" class="tsd-kind-icon padding-right-1">checkGroupExists</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/createInitiativeGroup/" class="tsd-kind-icon padding-right-1">createInitiativeGroup</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/getUniqueGroupName/" class="tsd-kind-icon padding-right-1">getUniqueGroupName</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/isSharedEditingGroup/" class="tsd-kind-icon padding-right-1">isSharedEditingGroup</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/removeInitiativeGroup/" class="tsd-kind-icon padding-right-1">removeInitiativeGroup</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/applyInitialSchema/" class="tsd-kind-icon padding-right-1">applyInitialSchema</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/addDefaultResources/" class="tsd-kind-icon padding-right-1">addDefaultResources</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/getResourceUrl/" class="tsd-kind-icon padding-right-1">getResourceUrl</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/upgradeToOneDotOne/" class="tsd-kind-icon padding-right-1">upgradeToOneDotOne</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/byId/" class="tsd-kind-icon padding-right-1">byId</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertIndicator/" class="tsd-kind-icon padding-right-1">convertIndicator</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertIndicatorField/" class="tsd-kind-icon padding-right-1">convertIndicatorField</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertIndicatorToDefinition/" class="tsd-kind-icon padding-right-1">convertIndicatorToDefinition</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertIndicatorValueToSource/" class="tsd-kind-icon padding-right-1">convertIndicatorValueToSource</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertIndicatorsToDefinitions/" class="tsd-kind-icon padding-right-1">convertIndicatorsToDefinitions</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertInitiativeIndicators/" class="tsd-kind-icon padding-right-1">convertInitiativeIndicators</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertStep/" class="tsd-kind-icon padding-right-1">convertStep</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/convertSteps/" class="tsd-kind-icon padding-right-1">convertSteps</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/extractIndicators/" class="tsd-kind-icon padding-right-1">extractIndicators</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/flattenField/" class="tsd-kind-icon padding-right-1">flattenField</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/isIndicator/" class="tsd-kind-icon padding-right-1">isIndicator</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/upgradeToTwoDotZero/" class="tsd-kind-icon padding-right-1">upgradeToTwoDotZero</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/migrateSchema/" class="tsd-kind-icon padding-right-1">migrateSchema</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/getProjectedExtentAsBBOXString/" class="tsd-kind-icon padding-right-1">getProjectedExtentAsBBOXString</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/saveModel/" class="tsd-kind-icon padding-right-1">saveModel</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/updateModel/" class="tsd-kind-icon padding-right-1">updateModel</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/removeInitiative/" class="tsd-kind-icon padding-right-1">removeInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/searchInitiativeTemplates/" class="tsd-kind-icon padding-right-1">searchInitiativeTemplates</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/searchInitiatives/" class="tsd-kind-icon padding-right-1">searchInitiatives</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/createInitiativeModelFromTemplate/" class="tsd-kind-icon padding-right-1">createInitiativeModelFromTemplate</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/updateInitiative/" class="tsd-kind-icon padding-right-1">updateInitiative</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/addImageAsResource/" class="tsd-kind-icon padding-right-1">addImageAsResource</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/copyImageResources/" class="tsd-kind-icon padding-right-1">copyImageResources</a>
+            </li>
+            
+            <li class="tsd-kind-object-literal padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/geometryService/" class="tsd-kind-icon padding-right-1">geometryService</a>
+            </li>
+            
+            <li class="tsd-kind-variable padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/INITIATIVE_TYPE_NAME/" class="tsd-kind-icon padding-right-1">INITIATIVE_TYPE_NAME</a>
+            </li>
+            
+            <li class="tsd-kind-variable padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/CURRENT_SCHEMA_VERSION/" class="tsd-kind-icon padding-right-1">CURRENT_SCHEMA_VERSION</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/IFollowInitiativeOptions/" class="tsd-kind-icon padding-right-1">IFollowInitiativeOptions</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/IProjectExtentOptions/" class="tsd-kind-icon padding-right-1">IProjectExtentOptions</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/initiatives/IInitiativeTemplateOptions/" class="tsd-kind-icon padding-right-1">IInitiativeTemplateOptions</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="6" package-name="@esri/hub-search" ></nav-toggle>
+          <button id="trigger6" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/search/" class="tsd-kind-icon">search</a>
+          <ul id="list6" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/search/agoSearch/" class="tsd-kind-icon padding-right-1">agoSearch</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/search/serialize/" class="tsd-kind-icon padding-right-1">serialize</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/search/IHubResult/" class="tsd-kind-icon padding-right-1">IHubResult</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/search/IHubResults/" class="tsd-kind-icon padding-right-1">IHubResults</a>
+            </li>
+            
+            <li class="tsd-kind-interface padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/search/ISearchParams/" class="tsd-kind-icon padding-right-1">ISearchParams</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="7" package-name="@esri/hub-sites" ></nav-toggle>
+          <button id="trigger7" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/sites/" class="tsd-kind-icon">sites</a>
+          <ul id="list7" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/sites/getDomain/" class="tsd-kind-icon padding-right-1">getDomain</a>
+            </li>
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/sites/getDomains/" class="tsd-kind-icon padding-right-1">getDomains</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        <li class="tsd-kind-module api-list-item">
+          <nav-toggle index="8" package-name="@esri/hub-solutions" ></nav-toggle>
+          <button id="trigger8" class="btn btn-transparent api-toggle-button" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svg-icon">
+              <path d="M7 4h5l12 12-12 12H7l12-12L7 4z" />
+            </svg>
+          </button>
+          <a href="/hub.js/api/solutions/" class="tsd-kind-icon">solutions</a>
+          <ul id="list8" class="api-package-content-list">
+            
+            <li class="tsd-kind-function padding-right-1 visually-hidden api-list-item">
+              <a href="/hub.js/api/solutions/comingSoon/" class="tsd-kind-icon padding-right-1">comingSoon</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+      </ul>
+    </api-search>
+  </nav>
+
+  <div class="column-18">
+    <div class="panel panel-white padding-left-1 padding-right-1 padding-trailer-1 padding-leader-half">
+      <h1 class="font-size-4">Packages</h1>
+
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/annotations/">@esri/hub-annotations</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to interact with ArcGIS Hub Annotations in Node.js and modern browsers.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-annotations @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-feature-layer@^2.0.0  @esri/arcgis-rest-portal@^2.0.0  @esri/arcgis-rest-request@^2.0.0  @esri/arcgis-rest-service-admin@^2.0.0  @esri/arcgis-rest-types@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  addAnnotations,
+  createAnnotationService,
+  deleteAnnotations,
+  searchAllAnnotationVotes,
+  searchAnnotations,
+  searchSingleAnnotationVotes,
+  updateAnnotations,
+  getAnnotationServiceUrl,
+  voteOnAnnotation,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-annotations"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-annotations@2.1.0/dist/umd/annotations.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/addAnnotations/" class="tsd-kind-icon">addAnnotations</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/createAnnotationService/" class="tsd-kind-icon">createAnnotationService</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/deleteAnnotations/" class="tsd-kind-icon">deleteAnnotations</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/searchAllAnnotationVotes/" class="tsd-kind-icon">searchAllAnnotationVotes</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/searchAnnotations/" class="tsd-kind-icon">searchAnnotations</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/searchSingleAnnotationVotes/" class="tsd-kind-icon">searchSingleAnnotationVotes</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/updateAnnotations/" class="tsd-kind-icon">updateAnnotations</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/getAnnotationServiceUrl/" class="tsd-kind-icon">getAnnotationServiceUrl</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/annotations/voteOnAnnotation/" class="tsd-kind-icon">voteOnAnnotation</a>
+  </li>
+  
+  <li class="tsd-kind-object-literal">
+    <a href="/hub.js/api/annotations/annotationServiceDefinition/" class="tsd-kind-icon">annotationServiceDefinition</a>
+  </li>
+  
+  <li class="tsd-kind-object-literal">
+    <a href="/hub.js/api/annotations/defaultExtent/" class="tsd-kind-icon">defaultExtent</a>
+  </li>
+  
+  <li class="tsd-kind-object-literal">
+    <a href="/hub.js/api/annotations/editorTrackingInfo/" class="tsd-kind-icon">editorTrackingInfo</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IAddAnnotationsOptions/" class="tsd-kind-icon">IAddAnnotationsOptions</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IAnnoFeature/" class="tsd-kind-icon">IAnnoFeature</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/ICreateAnnoOptions/" class="tsd-kind-icon">ICreateAnnoOptions</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IResourceObject/" class="tsd-kind-icon">IResourceObject</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/ISearchAnnoOptions/" class="tsd-kind-icon">ISearchAnnoOptions</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IVoteResourceObject/" class="tsd-kind-icon">IVoteResourceObject</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IAnnoItem/" class="tsd-kind-icon">IAnnoItem</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IAnnoSearchResult/" class="tsd-kind-icon">IAnnoSearchResult</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/annotations/IVoteOptions/" class="tsd-kind-icon">IVoteOptions</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/auth/">@esri/hub-auth</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to help the community authenticate and interact with ArcGIS Hub.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-auth @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-request@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  completeOAuth2
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-auth"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-auth@2.1.0/dist/umd/auth.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/auth/completeOAuth2/" class="tsd-kind-icon">completeOAuth2</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/common/">@esri/hub-common</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Common TypeScript types and utility functions for @esri/hub.js.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-common @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-portal@^2.0.0  @esri/arcgis-rest-request@^2.0.0  @esri/arcgis-rest-types@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  getHubApiUrl,
+  getCategory,
+  getTypes,
+  arrayToObject,
+  camelize,
+  cloneObject,
+  compose,
+  createId,
+  findBy,
+  getProp,
+  maybeAdd,
+  maybePush,
+  objectToArray,
+  without,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-common"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-common@2.1.0/dist/umd/common.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/getHubApiUrl/" class="tsd-kind-icon">getHubApiUrl</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/getCategory/" class="tsd-kind-icon">getCategory</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/getTypes/" class="tsd-kind-icon">getTypes</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/arrayToObject/" class="tsd-kind-icon">arrayToObject</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/camelize/" class="tsd-kind-icon">camelize</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/cloneObject/" class="tsd-kind-icon">cloneObject</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/compose/" class="tsd-kind-icon">compose</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/createId/" class="tsd-kind-icon">createId</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/findBy/" class="tsd-kind-icon">findBy</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/getProp/" class="tsd-kind-icon">getProp</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/maybeAdd/" class="tsd-kind-icon">maybeAdd</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/maybePush/" class="tsd-kind-icon">maybePush</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/objectToArray/" class="tsd-kind-icon">objectToArray</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/common/without/" class="tsd-kind-icon">without</a>
+  </li>
+  
+  <li class="tsd-kind-object-literal">
+    <a href="/hub.js/api/common/categories/" class="tsd-kind-icon">categories</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/common/IInitiativeItem/" class="tsd-kind-icon">IInitiativeItem</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/common/IInitiativeModel/" class="tsd-kind-icon">IInitiativeModel</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/common/IModel/" class="tsd-kind-icon">IModel</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/events/">@esri/hub-events</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to interact with ArcGIS Hub Events in Node.js and modern browsers.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-events @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-feature-layer@^2.0.0  @esri/arcgis-rest-portal@^2.0.0  @esri/arcgis-rest-request@^2.0.0  @esri/arcgis-rest-types@^2.0.0  @esri/hub-common@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  registerForEvent,
+  unregisterForEvent,
+  searchEvents,
+  getEventFeatureServiceUrl,
+  getEventQueryFromType,
+  getEventServiceItem,
+  getEventServiceUrl,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-events"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-events@2.1.0/dist/umd/events.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/registerForEvent/" class="tsd-kind-icon">registerForEvent</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/unregisterForEvent/" class="tsd-kind-icon">unregisterForEvent</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/searchEvents/" class="tsd-kind-icon">searchEvents</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/getEventFeatureServiceUrl/" class="tsd-kind-icon">getEventFeatureServiceUrl</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/getEventQueryFromType/" class="tsd-kind-icon">getEventQueryFromType</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/getEventServiceItem/" class="tsd-kind-icon">getEventServiceItem</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/events/getEventServiceUrl/" class="tsd-kind-icon">getEventServiceUrl</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/events/IEventRegisterOptions/" class="tsd-kind-icon">IEventRegisterOptions</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/events/IEventResourceObject/" class="tsd-kind-icon">IEventResourceObject</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/initiatives/">@esri/hub-initiatives</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to interact with ArcGIS Hub Initiatives in Node.js and modern browsers.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-initiatives @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-portal@^2.0.0  @esri/arcgis-rest-request@^2.0.0  @esri/hub-common@^2.0.0  @esri/hub-sites@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  activateInitiative,
+  addInitiative,
+  getInitiativeUrl,
+  detachSiteFromInitiative,
+  currentlyFollowedInitiatives,
+  followInitiative,
+  isUserFollowing,
+  unfollowInitiative,
+  getInitiative,
+  lookupSiteUrlByInitiative,
+  checkGroupExists,
+  createInitiativeGroup,
+  getUniqueGroupName,
+  isSharedEditingGroup,
+  removeInitiativeGroup,
+  applyInitialSchema,
+  addDefaultResources,
+  getResourceUrl,
+  upgradeToOneDotOne,
+  byId,
+  convertIndicator,
+  convertIndicatorField,
+  convertIndicatorToDefinition,
+  convertIndicatorValueToSource,
+  convertIndicatorsToDefinitions,
+  convertInitiativeIndicators,
+  convertStep,
+  convertSteps,
+  extractIndicators,
+  flattenField,
+  isIndicator,
+  upgradeToTwoDotZero,
+  migrateSchema,
+  getProjectedExtentAsBBOXString,
+  saveModel,
+  updateModel,
+  removeInitiative,
+  searchInitiativeTemplates,
+  searchInitiatives,
+  createInitiativeModelFromTemplate,
+  updateInitiative,
+  addImageAsResource,
+  copyImageResources,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-initiatives"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-initiatives@2.1.0/dist/umd/initiatives.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/activateInitiative/" class="tsd-kind-icon">activateInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/addInitiative/" class="tsd-kind-icon">addInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/getInitiativeUrl/" class="tsd-kind-icon">getInitiativeUrl</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/detachSiteFromInitiative/" class="tsd-kind-icon">detachSiteFromInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/currentlyFollowedInitiatives/" class="tsd-kind-icon">currentlyFollowedInitiatives</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/followInitiative/" class="tsd-kind-icon">followInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/isUserFollowing/" class="tsd-kind-icon">isUserFollowing</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/unfollowInitiative/" class="tsd-kind-icon">unfollowInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/getInitiative/" class="tsd-kind-icon">getInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/lookupSiteUrlByInitiative/" class="tsd-kind-icon">lookupSiteUrlByInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/checkGroupExists/" class="tsd-kind-icon">checkGroupExists</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/createInitiativeGroup/" class="tsd-kind-icon">createInitiativeGroup</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/getUniqueGroupName/" class="tsd-kind-icon">getUniqueGroupName</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/isSharedEditingGroup/" class="tsd-kind-icon">isSharedEditingGroup</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/removeInitiativeGroup/" class="tsd-kind-icon">removeInitiativeGroup</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/applyInitialSchema/" class="tsd-kind-icon">applyInitialSchema</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/addDefaultResources/" class="tsd-kind-icon">addDefaultResources</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/getResourceUrl/" class="tsd-kind-icon">getResourceUrl</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/upgradeToOneDotOne/" class="tsd-kind-icon">upgradeToOneDotOne</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/byId/" class="tsd-kind-icon">byId</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertIndicator/" class="tsd-kind-icon">convertIndicator</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertIndicatorField/" class="tsd-kind-icon">convertIndicatorField</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertIndicatorToDefinition/" class="tsd-kind-icon">convertIndicatorToDefinition</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertIndicatorValueToSource/" class="tsd-kind-icon">convertIndicatorValueToSource</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertIndicatorsToDefinitions/" class="tsd-kind-icon">convertIndicatorsToDefinitions</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertInitiativeIndicators/" class="tsd-kind-icon">convertInitiativeIndicators</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertStep/" class="tsd-kind-icon">convertStep</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/convertSteps/" class="tsd-kind-icon">convertSteps</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/extractIndicators/" class="tsd-kind-icon">extractIndicators</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/flattenField/" class="tsd-kind-icon">flattenField</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/isIndicator/" class="tsd-kind-icon">isIndicator</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/upgradeToTwoDotZero/" class="tsd-kind-icon">upgradeToTwoDotZero</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/migrateSchema/" class="tsd-kind-icon">migrateSchema</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/getProjectedExtentAsBBOXString/" class="tsd-kind-icon">getProjectedExtentAsBBOXString</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/saveModel/" class="tsd-kind-icon">saveModel</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/updateModel/" class="tsd-kind-icon">updateModel</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/removeInitiative/" class="tsd-kind-icon">removeInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/searchInitiativeTemplates/" class="tsd-kind-icon">searchInitiativeTemplates</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/searchInitiatives/" class="tsd-kind-icon">searchInitiatives</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/createInitiativeModelFromTemplate/" class="tsd-kind-icon">createInitiativeModelFromTemplate</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/updateInitiative/" class="tsd-kind-icon">updateInitiative</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/addImageAsResource/" class="tsd-kind-icon">addImageAsResource</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/initiatives/copyImageResources/" class="tsd-kind-icon">copyImageResources</a>
+  </li>
+  
+  <li class="tsd-kind-object-literal">
+    <a href="/hub.js/api/initiatives/geometryService/" class="tsd-kind-icon">geometryService</a>
+  </li>
+  
+  <li class="tsd-kind-variable">
+    <a href="/hub.js/api/initiatives/INITIATIVE_TYPE_NAME/" class="tsd-kind-icon">INITIATIVE_TYPE_NAME</a>
+  </li>
+  
+  <li class="tsd-kind-variable">
+    <a href="/hub.js/api/initiatives/CURRENT_SCHEMA_VERSION/" class="tsd-kind-icon">CURRENT_SCHEMA_VERSION</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/initiatives/IFollowInitiativeOptions/" class="tsd-kind-icon">IFollowInitiativeOptions</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/initiatives/IProjectExtentOptions/" class="tsd-kind-icon">IProjectExtentOptions</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/initiatives/IInitiativeTemplateOptions/" class="tsd-kind-icon">IInitiativeTemplateOptions</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/search/">@esri/hub-search</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to search for ArcGIS items and format them for display in ArcGIS Hub.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-search @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-feature-layer@^2.0.0  @esri/arcgis-rest-portal@^2.0.1  @esri/arcgis-rest-request@^2.0.0  @esri/arcgis-rest-types@^2.0.0  @esri/hub-common@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  agoSearch,
+  serialize,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-search"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-search@2.1.0/dist/umd/search.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/search/agoSearch/" class="tsd-kind-icon">agoSearch</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/search/serialize/" class="tsd-kind-icon">serialize</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/search/IHubResult/" class="tsd-kind-icon">IHubResult</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/search/IHubResults/" class="tsd-kind-icon">IHubResults</a>
+  </li>
+  
+  <li class="tsd-kind-interface">
+    <a href="/hub.js/api/search/ISearchParams/" class="tsd-kind-icon">ISearchParams</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/sites/">@esri/hub-sites</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to interact with ArcGIS Hub Sites in Node.js and modern browsers.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-sites @esri/arcgis-rest-auth@^2.0.0  @esri/arcgis-rest-portal@^2.0.0  @esri/arcgis-rest-request@^2.0.0  @esri/hub-common@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  getDomain,
+  getDomains
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-sites"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-sites@2.1.0/dist/umd/sites.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/sites/getDomain/" class="tsd-kind-icon">getDomain</a>
+  </li>
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/sites/getDomains/" class="tsd-kind-icon">getDomains</a>
+  </li>
+  
+</ul>
+
+
+  
+  <hr>
+  
+  
+  
+  
+  <small class="label right">Version 2.1.0</small>
+<h1 class=" font-size-3 trailer-half code-face">
+  <a href="/hub.js/api/solutions/">@esri/hub-solutions</a>
+</h1>
+<p class="font-size--1 trailer-1 avenir-regular">Module to interact with ArcGIS Hub Solutions in Node.js and modern browsers.</p>
+<h2 class="font-size-0 trailer-quarter">npm install:</h2>
+<pre><code>npm install @esri/hub-solutions @esri/arcgis-rest-request@^2.0.0  @esri/hub-common@^2.0.0 </code></pre>
+<h2 class="font-size-0 trailer-quarter">Module Import:</h2>
+
+<pre><code class="js"><span class="hljs-keyword">import</span> {
+  comingSoon
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@esri/hub-solutions"</span>;</code></pre>
+
+<h2 class="font-size-0 trailer-quarter">CDN:</h2>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/@esri/hub-solutions@2.1.0/dist/umd/solutions.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 class="font-size-0 trailer-quarter">CDN with SRI:</h2>
+
+<hr class="leader-half trailer-quarter" />
+<ul class="list-plain package-contents">
+  
+  <li class="tsd-kind-function">
+    <a href="/hub.js/api/solutions/comingSoon/" class="tsd-kind-icon">comingSoon</a>
+  </li>
+  
+</ul>
+
+
+</div>
+    </div>
+  </div>
+</div>
+
+      </main>
+    </div>
+
+    <footer class="footer">
+      
+<div class="panel panel-white">
+  <div class="grid-container">
+    <div class="column-24">
+      <h2>Legend</h2>
+      <div
+        class="block-group block-group-4-up tablet-block-group-2-up phone-block-group-1-up"
+      >
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-module">
+              <span class="tsd-kind-icon">Module</span>
+            </li>
+            <li class="tsd-kind-object-literal">
+              <span class="tsd-kind-icon">Object literal</span>
+            </li>
+            <li class="tsd-kind-variable">
+              <span class="tsd-kind-icon">Variable</span>
+            </li>
+            <li class="tsd-kind-function">
+              <span class="tsd-kind-icon">Function</span>
+            </li>
+            <li class="tsd-kind-function tsd-has-type-parameter">
+              <span class="tsd-kind-icon">Function with type parameter</span>
+            </li>
+            <li class="tsd-kind-index-signature">
+              <span class="tsd-kind-icon">Index signature</span>
+            </li>
+            <li class="tsd-kind-type-alias">
+              <span class="tsd-kind-icon">Type alias</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-enumeration">
+              <span class="tsd-kind-icon">Enumeration</span>
+            </li>
+            <li class="tsd-kind-enumeration-member">
+              <span class="tsd-kind-icon">Enumeration member</span>
+            </li>
+            <li class="tsd-kind-property tsd-parent-kind-enumeration">
+              <span class="tsd-kind-icon">Property</span>
+            </li>
+            <li class="tsd-kind-method tsd-parent-kind-enumeration">
+              <span class="tsd-kind-icon">Method</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-interface">
+              <span class="tsd-kind-icon">Interface</span>
+            </li>
+            <li class="tsd-kind-interface tsd-has-type-parameter">
+              <span class="tsd-kind-icon">Interface with type parameter</span>
+            </li>
+            <li class="tsd-kind-constructor tsd-parent-kind-interface">
+              <span class="tsd-kind-icon">Constructor</span>
+            </li>
+            <li class="tsd-kind-property tsd-parent-kind-interface">
+              <span class="tsd-kind-icon">Property</span>
+            </li>
+            <li class="tsd-kind-method tsd-parent-kind-interface">
+              <span class="tsd-kind-icon">Method</span>
+            </li>
+            <li class="tsd-kind-index-signature tsd-parent-kind-interface">
+              <span class="tsd-kind-icon">Index signature</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-class">
+              <span class="tsd-kind-icon">Class</span>
+            </li>
+            <li class="tsd-kind-class tsd-has-type-parameter">
+              <span class="tsd-kind-icon">Class with type parameter</span>
+            </li>
+            <li class="tsd-kind-constructor tsd-parent-kind-class">
+              <span class="tsd-kind-icon">Constructor</span>
+            </li>
+            <li class="tsd-kind-property tsd-parent-kind-class">
+              <span class="tsd-kind-icon">Property</span>
+            </li>
+            <li class="tsd-kind-method tsd-parent-kind-class">
+              <span class="tsd-kind-icon">Method</span>
+            </li>
+            <li class="tsd-kind-accessor tsd-parent-kind-class">
+              <span class="tsd-kind-icon">Accessor</span>
+            </li>
+            <li class="tsd-kind-index-signature tsd-parent-kind-class">
+              <span class="tsd-kind-icon">Index signature</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li
+              class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"
+            >
+              <span class="tsd-kind-icon">Inherited constructor</span>
+            </li>
+            <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+              <span class="tsd-kind-icon">Inherited property</span>
+            </li>
+            <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+              <span class="tsd-kind-icon">Inherited method</span>
+            </li>
+            <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+              <span class="tsd-kind-icon">Inherited accessor</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+              <span class="tsd-kind-icon">Protected property</span>
+            </li>
+            <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+              <span class="tsd-kind-icon">Protected method</span>
+            </li>
+            <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected">
+              <span class="tsd-kind-icon">Protected accessor</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-property tsd-parent-kind-class tsd-is-private">
+              <span class="tsd-kind-icon">Private property</span>
+            </li>
+            <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private">
+              <span class="tsd-kind-icon">Private method</span>
+            </li>
+            <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private">
+              <span class="tsd-kind-icon">Private accessor</span>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <ul class="list-plain">
+            <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static">
+              <span class="tsd-kind-icon">Static property</span>
+            </li>
+            <li
+              class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"
+            >
+              <span class="tsd-kind-icon">Static method</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="panel panel-white">
+        <div class="grid-container">
+          <div class="column-24">
+            <a href="https://github.com/Esri/hub.js" class="font-size--2">Fork this project</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/js/calcite-web.min.js"></script>
+
+    <script>
+       calcite.init()
+    </script>
+
+    
+<script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js"></script>
+<script src="https://unpkg.com/fuse.js@3.0.5/dist/fuse.min.js"></script>
+<script src="/hub.js/js/index.js"></script>
+<script src="/hub.js/js/api-search.js"></script>
+<script src="/hub.js/js/nav-toggle.js"></script>
+<script>
+  new Vue({
+    el: "#page"
+  });
+</script>
+
+
+  </body>
+</html>
